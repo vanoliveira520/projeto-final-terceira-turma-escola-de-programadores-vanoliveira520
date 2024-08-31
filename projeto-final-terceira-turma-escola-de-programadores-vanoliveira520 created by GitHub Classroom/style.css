@@ -1,0 +1,215 @@
+:root{
+
+}
+
+#body{
+    background-image: url(pedras\ e\ areia.jpeg);
+    color: var(gray);
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    margin: 2% 5%;
+}
+
+body{
+    font-family: 'Montserrat';
+    margin: 3%;
+}
+
+
+footer{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 5% 0;
+    margin-top: 5%;
+}
+
+/*Início cabeçalho*/
+.logo{
+   
+    gap: 30px;
+    width: 90%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.nome{
+    font-style: italic;
+    font-family: Brush Script MT;
+    font-size: 30rem;
+    justify-content: right;
+    margin-left: 30rem;
+    
+}
+
+.LogoLucioPradoCimentos{
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    width:10%;
+    height: 10%;
+    position: relative;
+ }
+
+
+.materialConstrução{
+    float: left;
+
+
+}
+
+.h2{
+    color: black;
+    float: left;
+    font-weight: bolder;
+    font-size: 500%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.container{
+    background-color: bisque;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+  
+}
+
+.terraplenagem{
+    float: left;
+
+}
+
+
+.poço{
+    float: left;
+
+}
+
+
+
+.imagem{
+    width: 1500px; /* Largura fixa */
+    height: 1500px; /* Altura fixa */
+
+}
+
+.contatos{
+    font-size: 2.5rem;
+    color: black;
+}
+
+
+.whatsapp-link {
+    position: center;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: black;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px; 
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
+/*Início Responsividade*/
+
+/*Início 1440px*/
+@media screen and (max-width: 1440px){
+    /*Início Cabeçalho - 1440px*/
+    .logo{
+        width: 20%;
+        height: 20%;
+        margin: none;
+
+    }
+
+    .imagem{
+        width: 500px; /* Largura fixa */
+        height: 500px; /* Altura fixa */
+    }
+
+    .h2{
+        font-size: 100%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    .nome{
+        font-size: 5rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+ /*Fim 1440px*/
+
+/*Inicio 1024px*/
+@media screen and (max-width: 1024px){
+    /*Início Titulo 1024px*/
+    .nome{
+        font-size: 5rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .logo{
+        width: 20%;
+        height: 20%;
+        margin: none;
+
+    }
+
+    .imagem{
+        width: 400px; /* Largura fixa */
+        height: 400px; /* Altura fixa */
+    }
+
+    .h2{
+        font-size: 100%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    /*Fim  1024px*/
+
+
+@media screen and (max-width: 767px){
+/*Inicio 414x896px*/
+
+    .nome{
+        font-size: 5rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .imagem{
+        width: 100px; /* Largura fixa */
+        height: 100px; /* Altura fixa */
+    }
+
+    .h2{
+        font-size: 100%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+  
+/*Fim 414x896px*/
