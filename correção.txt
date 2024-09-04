@@ -1,0 +1,9 @@
+Mudanças
+
+Revisar toda a versão de desktop, pois as letras estão fora de proporção.
+Não há menu no header.
+As imagens de fundo não estão com contraste o suficiente em relação ao titulo.
+O rodapé está desproporcional.
+
+Identifiquei que você fez pensando no mobile, pois o mobile está correto.
+Ficou muito bom Vanessa, mas tenta dar uma revisada no que eu te passei.
