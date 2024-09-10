@@ -113,23 +113,16 @@ footer{
 }
 
 
-.whatsapp-link {
-    position: center;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
-    right: 40px;
-    background-color: #25d366;
-    color: black;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 1px 1px 2px; 
-    z-index: 1000;
-}
 
-.fa-whatsapp {
-    margin-top: 16px;
+.rodape{
+    background-color: bisque;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+ 
+
+
 }
 /*Início Responsividade*/
 
