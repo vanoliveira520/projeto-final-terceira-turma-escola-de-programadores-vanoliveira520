@@ -1,5 +1,3 @@
-# projeto-final-terceira-turma-escola-de-programadores-vanoliveira520
-projeto-final-terceira-turma-escola-de-programadores-vanoliveira520 created by GitHub Classroom
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -29,7 +27,20 @@ projeto-final-terceira-turma-escola-de-programadores-vanoliveira520 created by G
         <h1 class="nome">Lucio Prado Cimentos</h1>
 
     </section>
-        <section class="container">
+
+    <section class="menu">
+    <nav id="menu">
+        <ul>
+            <li><a href="#materialDeConstrucao">Materiais de Construção</a></li>
+            <li><a href="#terraplanagem">Terraplanagem</a></li>
+            <li><a href="#poco">Poço Semi-Artesiano</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+</section>
+
+        <section class="container" id="materialDeConstrucao">
      
                 <img class="imagem" src="img/material de construção.jpeg">
                 <h2 class="h2"><b>Materiais de Construção Basicos. </b>Reformar ou construir uma casa não é uma tarefa simples, exige tempo, dinheiro e esforço, sem contar da necessidade de um bom planejamento de obras e uma lista completa dos materiais de construção.
@@ -37,7 +48,7 @@ projeto-final-terceira-turma-escola-de-programadores-vanoliveira520 created by G
                     Aqui você encontra os principais materiais que você vai precisar na sua obra, oferecendo orientações práticas e dicas muito úteis para estar bem preparado para iniciar e concluir o seu projeto de uma construção simples com sucesso. </h2>
               
     </section>
-    <section class="container"
+    <section class="container" id="terraplanagem"
     <div>
         <img class="imagem" src="img/tratorTerraplenagem.jpg">
 
@@ -47,7 +58,7 @@ projeto-final-terceira-turma-escola-de-programadores-vanoliveira520 created by G
         </div>
 </section>
  
-<section class="container"
+<section class="container" id="poco"
 <div>
     <img class="imagem" src="img/poço.jpg" alt="Poço semi artesiano já acabado e jorrando água">
     
@@ -55,45 +66,27 @@ projeto-final-terceira-turma-escola-de-programadores-vanoliveira520 created by G
 </div>
 </section>
     <footer> 
-        
-        <img class="LogoLucioPradoCimentos" src="img/baixados.png" alt="Logo Lucio Prado Cimentos">
-        <div style="display: flex; flex-direction: column; gap: 10%; background-color: bisque;">
 
         
-          
-         
-                <a href="#"><img src="img/Facebook.png" alt="Facebook"></a>
-                <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
-                <a class="whatsapp-link" href="https://wa.me/5511932095512" target="_blank">
-                    <i class="fa fa-whatsapp"></i>
-                </a>
-                <style>
-                  
-                </style>
-                </div>
-                </footer>
-            </head>
-            <body>
-                <a class="whatsapp-link" href="https://wa.me/5511999999999" target="_blank">
-                    <i class="fa fa-whatsapp"></i>
-                </a>
+        <div class="rodape" style="display: flex; flex-direction: column; gap: 20px;" id="contato">
+            <img src="img/baixados.png" alt="Logo Lucio Prado Cimentos">
+            <div style="display: flex; gap: 15px;">
+                <a href="https://www.facebook.com/profile.php?id=100090065694822"><img src="img/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/luciopradocimentos/?hl=pt-br"><img src="img/instagram.png" alt="Instagram"></a>
+                <a href="https://wa.me/5511932095512"><img src="img/whatsapp.png" alt="WhatsApp"></a>
             
-
-                       
-               
-            </head>
-
-        </footer>
-            <body>
-              
-                   
-         
-
+            </div>
+        </div>
         
-      
+     
+    </footer>
+        
+     
+                 
   
-
-    <script>
+<body>        
+                   
+  <script>
         var menu = document.getElementById("opcoesMenu");
 
         var body = document.getElementById("body");
